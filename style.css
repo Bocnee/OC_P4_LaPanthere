@@ -888,6 +888,16 @@ h4 {
         padding-right: constant(safe-area-inset-right);
     }
 }
+/* Remplacements fait */
+
+.row {
+    width: 70%;
+    margin: auto;
+}
+.col-sm-12__title {
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
 
 @media (max-width: 767px) {
     .page-container {
