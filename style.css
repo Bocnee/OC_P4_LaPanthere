@@ -526,7 +526,7 @@ button {
 }
 
 .showScrollTop {
-    font-size: 14px;
+    font-size: 16px;
     opacity: 1;
 }
 
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #5f5f5f;
 }
 
 .container {
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -825,6 +825,16 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
+.footer__link {
+    display: block;
+    padding: 10px;
+}
+
+p.footer__title {
+    margin-bottom: 10px;
+    color: white;!important
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -891,12 +901,10 @@ h4 {
 /* Remplacements fait */
 
 .row {
-    width: 70%;
-    margin: auto;
 }
-.col-sm-12__title {
-    font-size: 2rem;
-    margin-bottom: 25px;
+
+ a {
+    color: white;
 }
 
 @media (max-width: 767px) {
