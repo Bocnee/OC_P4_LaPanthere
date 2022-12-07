@@ -261,6 +261,10 @@ a:hover {
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
+    display: flex;
+    width: 50%;
+    text-align: center;
+    justify-content: space-around;
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -724,6 +728,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
@@ -1021,6 +1026,11 @@ blockquote, figcaption {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .row-no-gutters {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
     }
 }
 
